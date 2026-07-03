@@ -8,7 +8,7 @@
     "steps": [
       {
         "title": "Let's update our package manager repository",
-        "text": "step1.md"
+        "text": "day4/text.md"
       }
     ],
     "finish": {
