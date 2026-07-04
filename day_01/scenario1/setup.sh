@@ -1,3 +1,5 @@
+#!/usr/env bash
+
 #required for all lessons
 apt update
 apt upgrade -y
