@@ -1,5 +1,6 @@
 {
   "items": [
+    { "path": "luc-server", "title": "Base Server", "description": "Base server with required software and configuration to run the challenge in one go." },
     { "path": "day_01", "title": "Day 1 - Get to know your server" }
   ]
 }

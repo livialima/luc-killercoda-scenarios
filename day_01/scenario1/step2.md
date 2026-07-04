@@ -32,8 +32,6 @@ Displays hardware such as network cards and graphics adapters (or [PCI devices](
 
 ### List USB devices
 
-Type:
-
-`lsusb`{{exec}}
+Type: `lsusb`{{exec}}
 
 Shows [USB devices](https://www.man7.org/linux/man-pages/man8/lsusb.8.html) connected to the server. It will return blank if there's no devices to display.
