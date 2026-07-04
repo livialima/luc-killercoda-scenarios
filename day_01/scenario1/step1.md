@@ -1,9 +1,29 @@
-## GENERAL INFORMATION ABOUT THE SERVER
+### Check your Linux version
 
-Use `lsb_release -a`{{exec}} to see which Linux distro and version you're using. [lsb_release](https://refspecs.linuxfoundation.org/LSB_3.0.0/LSB-PDA/LSB-PDA/lsbrelease.html) may not be available in your server, as it's not widely adopted, but you will always have the same information available in the system file [os-release](https://www.man7.org/linux/man-pages/man5/os-release.5.html). You can check its content by typing `cat /etc/os-release`{{exec}}.
+Type: `lsb_release -a`{{exec}}
 
-`uname -a`{{exec}} will also print the [system information](https://www.man7.org/linux/man-pages/man1/uname.1.html) and it can show some interesting things like kernel version, hardware platform, etc.
+Use [lsb_release](https://refspecs.linuxfoundation.org/LSB_3.0.0/LSB-PDA/LSB-PDA/lsbrelease.html) to see which Linux distro and version you're using.
 
-`uptime`{{exec}} will show you [how long the system has been running](https://www.man7.org/linux/man-pages/man1/uptime.1.html). It kinda makes the [weird numbers](https://unix.stackexchange.com/questions/753868/proc-uptime-command-gives-weird-result) you get from `cat /proc/uptime`{{exec}} a lot more readable.
+It may not be available in your server, as it's not widely adopted, but you will always have the same information available in the system file [os-release](https://www.man7.org/linux/man-pages/man5/os-release.5.html).
 
-`whoami`{{exec}} will print the [user name](https://www.man7.org/linux/man-pages/man1/whoami.1.html) you logged on with, `who -a`{{exec}} will show [who is logged on](https://www.man7.org/linux/man-pages/man1/who.1.html) (and their terminal sessions) and `w`{{exec}} will also show [what they are doing](https://www.man7.org/linux/man-pages/man1/w.1.html).
+Check its content by typing: `cat /etc/os-release`{{exec}}
+
+---
+
+### View system information
+
+Type: `uname -a`{{exec}}
+
+This will print the [system information](https://www.man7.org/linux/man-pages/man1/uname.1.html) and display your kernel version, architecture, and other system details.
+
+---
+
+### Check server uptime
+
+Type: `uptime`{{exec}}
+
+This will show you [how long the system has been running](https://www.man7.org/linux/man-pages/man1/uptime.1.html) and its current workload.
+
+It takes this information from the file `/proc/uptime` and makes the [weird numbers](https://unix.stackexchange.com/questions/753868/proc-uptime-command-gives-weird-result) a lot more readable.
+
+To see the file contents: `cat /proc/uptime`{{exec}}
