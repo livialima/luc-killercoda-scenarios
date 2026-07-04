@@ -1,0 +1,38 @@
+{
+  "title": "",
+  "description": "",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      },
+      {
+        "title": "",
+        "text": "step2.md"
+      },
+      {
+        "title": "",
+        "text": "step3.md"
+      },
+      {
+        "title": "",
+        "text": "step4.md"
+      },
+      {
+        "title": "",
+        "text": "step5.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
