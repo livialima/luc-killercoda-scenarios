@@ -2,3 +2,7 @@
 apt update
 apt upgrade -y
 apt autoremove
+
+#required for day1
+apt install ifstat -y
+apt install iftop -y

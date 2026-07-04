@@ -1,5 +1,5 @@
 {
-  "title": "",
+  "title": "Basic commands",
   "description": "",
   "details": {
     "intro": {
@@ -8,23 +8,23 @@
     },
     "steps": [
       {
-        "title": "",
+        "title": "General information about the server",
         "text": "step1.md"
       },
       {
-        "title": "",
+        "title": "Hardware information",
         "text": "step2.md"
       },
       {
-        "title": "",
+        "title": "Measure memory and cpu usage",
         "text": "step3.md"
       },
       {
-        "title": "",
+        "title": "Measure disk usage",
         "text": "step4.md"
       },
       {
-        "title": "",
+        "title": "Measure network usage",
         "text": "step5.md"
       }
     ],
