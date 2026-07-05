@@ -1,33 +1,44 @@
 #!/usr/env bash
 
+# Exit on any error
+set -e
+
 #required for all lessons
-apt update
+echo "Updating package lists..."
+apt update -y
+
+echo "Upgrading installed packages..."
 apt upgrade -y
-apt autoremove -y
 
 #required for day_01
-apt install ifstat -y
-apt install iftop -y
+apt install -y ifstat iftop
 
 #required for day_02
-apt install snap snapd -y
+apt install -y snap snapd
 snap install tldr
 
 #required for day_04
 #hostnamectl set-hostname myserver
 
 #required for day_09
-apt install nmap -y
+apt install -y nmap
 
 #required for day_10
-apt install at -y
+apt install -y at
 
 #required for day_11
-apt install locate -y
+apt install -y locate
 updatedb
 
 #required for day_17
-apt install build-essential -y
+apt install -y build-essential
+
+#finish setup
+echo "Removing unnecessary packages and cleaning cache..."
+apt autoremove -y
+apt autoclean -y
+
+echo "Setup complete."
 
 #switch to ubuntu user
 su - ubuntu
