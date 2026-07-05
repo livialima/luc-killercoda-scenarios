@@ -4,7 +4,7 @@
   "details": {
     "intro": {
       "text": "intro.md",
-      "foreground": "setup.sh"
+      "foreground": "run-luc.sh"
     },
     "steps": [
       {
@@ -34,6 +34,11 @@
     ],
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "../../luc-server/assets/setup.sh", "target": "/tmp", "chmod": "+x"}
+      ]
     }
   },
   "backend": {
