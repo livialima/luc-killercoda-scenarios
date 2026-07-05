@@ -4,10 +4,15 @@
   "details": {
     "intro": {
       "text": "intro.md",
-      "foreground": "setup.sh"
+      "foreground": "run.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {"file": "setup.sh", "target": "/tmp", "chmod": "+x"}
+      ]
     }
   },
   "backend": {
