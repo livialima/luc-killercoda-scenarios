@@ -1,1 +1,0 @@
-bash /tmp/setup.sh
