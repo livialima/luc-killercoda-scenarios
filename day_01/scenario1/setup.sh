@@ -1,4 +1,4 @@
-#!/usr/env bash
+#!/usr/bin/env bash
 #required for all lessons
 apt update
 apt upgrade -y
