@@ -7,8 +7,8 @@ set -e
 echo "Updating package lists..."
 apt update -y
 
-echo "Upgrading installed packages..."
-apt upgrade -y
+#echo "Upgrading installed packages..."
+#apt upgrade -y
 
 #required for day_01
 apt install -y ifstat iftop
